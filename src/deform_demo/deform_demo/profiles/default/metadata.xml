@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<metadata>
+  <version>1000</version>
+  <dependencies>
+    <dependency>profile-collective.deform:default</dependency>
+    <dependency>profile-starzel.deformwidgets:default</dependency>
+  </dependencies>  
+</metadata>

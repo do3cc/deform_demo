@@ -1,0 +1,6 @@
+<layers>
+  <layer
+    name="deform_demo"
+    interface="deform_demo.layer.IDeformDemo"
+  />
+</layers>
