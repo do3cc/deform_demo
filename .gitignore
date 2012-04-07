@@ -1,4 +1,8 @@
 bin/
 parts/
-src/
 var/
+src/collective.colander/
+src/collective.deform/
+src/deform/
+src/example.conference/
+src/starzel.deformwidgets/
