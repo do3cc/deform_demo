@@ -33,6 +33,7 @@ setup(name='deform_demo',
         "zope.component",
         "zope.event",
         "zope.lifecycleevent",
+        "plone.app.referenceablebehavior",
       ],
       entry_points="""
       [z3c.autoinclude.plugin]

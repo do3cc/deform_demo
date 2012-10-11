@@ -2,7 +2,8 @@
 <metadata>
   <version>1000</version>
   <dependencies>
+    <dependency>profile-example.conference:default</dependency>
     <dependency>profile-collective.deform:default</dependency>
-    <dependency>profile-starzel.deformwidgets:default</dependency>
+    <dependency>profile-collective.deformwidgets:default</dependency>
   </dependencies>  
 </metadata>
