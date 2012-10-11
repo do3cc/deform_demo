@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.0'
+version = '0.0.1'
 
 setup(name='deform_demo',
       version=version,
@@ -18,21 +18,21 @@ setup(name='deform_demo',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-        "starzel.deformwidgets",
-        "imsvdex",
-        "deform",
-        "plone.memoize",
+          # -*- Extra requirements: -*-
+        "Acquisition",
         "colander",
-        "collective.deform",
         "collective.colander",
+        "collective.deform",
+        "collective.deformwidgets",
+        "deform",
+        "five.grok",
+        "imsvdex",
+        "plone.dexterity",
+        "plone.memoize",
         "Products.statusmessages",
+        "zope.component",
         "zope.event",
         "zope.lifecycleevent",
-        "Acquisition",
-        "plone.dexterity",
-        "zope.component",
-        "five.grok",
-          # -*- Extra requirements: -*-
       ],
       entry_points="""
       [z3c.autoinclude.plugin]
